@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio for Ayomide Akinsanya, a Computer Science graduate, software developer, and aspiring programming instructor."
+    />
+    <title>Ayomide Akinsanya | Developer & Educator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap nav-bar">
+        <a href="#home" class="brand" aria-label="Go to home section">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span>Ayomide</span>
+        </a>
+
+        <button id="menu" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="links" class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#skills">Skills</a>
+          <a href="#recognition">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Technology • Web Development • Education</p>
+            <h1>
+              I build digital solutions<br />
+              and help people learn them.
+            </h1>
+            <p class="lead">
+              I am a Computer Science graduate, a practical web developer, and an aspiring programming educator.
+              I enjoy turning complex ideas into clear, functional experiences and helping learners understand
+              technology with confidence.
+            </p>
+
+            <div class="actions">
+              <a class="btn btn-primary" href="#projects">View my work</a>
+              <a class="btn btn-secondary" href="#contact">Let’s connect</a>
+            </div>
+
+            <div class="stats" aria-label="Key profile highlights">
+              <div>
+                <strong>03</strong>
+                <span>Featured projects</span>
+              </div>
+              <div>
+                <strong>2026</strong>
+                <span>B.Sc. Computer Science</span>
+              </div>
+              <div>
+                <strong>1</strong>
+                <span>Academic excellence award</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Profile summary card">
+            <div class="card-top">
+              <span class="status-dot"></span>
+              <span>Available for opportunities</span>
+            </div>
+
+            <h2>Developer & Educator</h2>
+            <ul>
+              <li>Web application development</li>
+              <li>Database-driven systems</li>
+              <li>Programming instruction</li>
+              <li>Problem solving and practical learning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="wrap">
+          <p class="section-tag">01 / About</p>
+          <h2>Driven by curiosity, built on problem-solving.</h2>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I graduated from the Federal University of Lafia with a B.Sc. in Computer Science and developed an
+                interest in creating systems that are both useful and understandable. My work spans web
+                applications, logic-based solutions, and educational support for learners who want to build stronger
+                digital skills.
+              </p>
+              <p>
+                I enjoy turning ideas into working solutions through thoughtful design, structured development, and
+                continuous learning. My goal is to contribute to impactful projects while helping others grow in the
+                field of technology.
+              </p>
+            </div>
+
+            <aside class="info-panel">
+              <h3>Highlights</h3>
+              <div class="info-item">
+                <span class="info-label">Award</span>
+                <p>Best Graduating Student in Computer Science, Federal University of Lafia</p>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Education</span>
+                <p>B.Sc. Computer Science, 2023–2026</p>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Experience</span>
+                <p>SIWES at Bizmarrow Technologies, Abuja</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt-section">
+        <div class="wrap">
+          <p class="section-tag">02 / Selected Work</p>
+          <h2>Projects that solve real challenges.</h2>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <figure
+                class="project-gallery"
+                data-gallery
+                data-featured-project="tuberculosis-screening"
+                data-images="images/projects/tuberculosis-screening-1.png,images/projects/tuberculosis-screening-2.png,images/projects/tuberculosis-screening-3.png,images/projects/tuberculosis-screening-4.png,images/projects/tuberculosis-screening-5.png"
+                aria-label="Multilingual tuberculosis screening project screenshots"
+              >
+                <img class="gallery-image" alt="Screenshot of the multilingual tuberculosis screening application" />
+                <div class="screenshot-placeholder">
+                  <span class="placeholder-icon" aria-hidden="true">&lt;/&gt;</span>
+                  <span>Add up to five project screenshots</span>
+                  <small>Use tuberculosis-screening-1.png through -5.png</small>
+                </div>
+                <div class="gallery-controls" hidden>
+                  <button class="gallery-previous" type="button" aria-label="Previous screenshot">‹</button>
+                  <span class="gallery-count" aria-live="polite"></span>
+                  <button class="gallery-next" type="button" aria-label="Next screenshot">›</button>
+                </div>
+                <label class="gallery-upload featured-gallery-upload">
+                  <span>Upload screenshots</span>
+                  <input class="featured-gallery-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple aria-label="Upload up to five screenshots for the tuberculosis screening project" />
+                </label>
+                <figcaption>Project screenshots</figcaption>
+              </figure>
+              <p class="featured-upload-note" aria-live="polite">Up to five screenshots can be stored online for this project.</p>
+              <div class="project-visual visual-one">
+                <span>01</span>
+                <small>Health Technology</small>
+              </div>
+              <div class="project-body">
+                <h3>Multilingual Tuberculosis Screening & Risk Assessment</h3>
+                <p>
+                  A rule-based clinical decision support system designed to process screening responses and assess
+                  health risk with multilingual support in English, Yoruba, Hausa, and Igbo.
+                </p>
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>MySQL</span>
+                  <span>JavaScript</span>
+                </div>
+                <button class="details" data-project="0">Project details</button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <figure
+                class="project-gallery"
+                data-gallery
+                data-featured-project="departmental-portal"
+                data-images="images/projects/departmental-portal-1.png,images/projects/departmental-portal-2.png,images/projects/departmental-portal-3.png,images/projects/departmental-portal-4.png,images/projects/departmental-portal-5.png"
+                aria-label="Web-based departmental portal screenshots"
+              >
+                <img class="gallery-image" alt="Screenshot of the web-based departmental portal" />
+                <div class="screenshot-placeholder">
+                  <span class="placeholder-icon" aria-hidden="true">&lt;/&gt;</span>
+                  <span>Add up to five project screenshots</span>
+                  <small>Use departmental-portal-1.png through -5.png</small>
+                </div>
+                <div class="gallery-controls" hidden>
+                  <button class="gallery-previous" type="button" aria-label="Previous screenshot">‹</button>
+                  <span class="gallery-count" aria-live="polite"></span>
+                  <button class="gallery-next" type="button" aria-label="Next screenshot">›</button>
+                </div>
+                <label class="gallery-upload featured-gallery-upload">
+                  <span>Upload screenshots</span>
+                  <input class="featured-gallery-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple aria-label="Upload up to five screenshots for the departmental portal project" />
+                </label>
+                <figcaption>Project screenshots</figcaption>
+              </figure>
+              <p class="featured-upload-note" aria-live="polite">Up to five screenshots can be stored online for this project.</p>
+              <div class="project-visual visual-two">
+                <span>02</span>
+                <small>Education Technology</small>
+              </div>
+              <div class="project-body">
+                <h3>Web-Based Departmental Portal</h3>
+                <p>
+                  A portal for department communication, academic information sharing, event updates, and schedule
+                  visibility, designed to streamline coordination and improve access to information.
+                </p>
+                <div class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Database</span>
+                </div>
+                <button class="details" data-project="1">Project details</button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <figure
+                class="project-gallery"
+                data-gallery
+                data-featured-project="campus-transport"
+                data-images="images/projects/campus-transport-1.png,images/projects/campus-transport-2.png,images/projects/campus-transport-3.png,images/projects/campus-transport-4.png,images/projects/campus-transport-5.png"
+                aria-label="Smart campus transport booking system screenshots"
+              >
+                <img class="gallery-image" alt="Screenshot of the smart campus transport booking system" />
+                <div class="screenshot-placeholder">
+                  <span class="placeholder-icon" aria-hidden="true">&lt;/&gt;</span>
+                  <span>Add up to five project screenshots</span>
+                  <small>Use campus-transport-1.png through -5.png</small>
+                </div>
+                <div class="gallery-controls" hidden>
+                  <button class="gallery-previous" type="button" aria-label="Previous screenshot">‹</button>
+                  <span class="gallery-count" aria-live="polite"></span>
+                  <button class="gallery-next" type="button" aria-label="Next screenshot">›</button>
+                </div>
+                <label class="gallery-upload featured-gallery-upload">
+                  <span>Upload screenshots</span>
+                  <input class="featured-gallery-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple aria-label="Upload up to five screenshots for the campus transport project" />
+                </label>
+                <figcaption>Project screenshots</figcaption>
+              </figure>
+              <p class="featured-upload-note" aria-live="polite">Up to five screenshots can be stored online for this project.</p>
+              <div class="project-visual visual-three">
+                <span>03</span>
+                <small>Campus Mobility</small>
+              </div>
+              <div class="project-body">
+                <h3>Smart Campus Transport Booking System</h3>
+                <p>
+                  A campus transportation system that simplifies booking workflows, supports user interaction, and
+                  organizes related data for easier management and tracking.
+                </p>
+                <div class="tags">
+                  <span>Web Development</span>
+                  <span>Databases</span>
+                  <span>UX</span>
+                </div>
+                <button class="details" data-project="2">Project details</button>
+              </div>
+            </article>
+          </div>
+          <div id="saved-projects" class="project-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="teaching" class="section">
+        <div class="wrap teaching-layout">
+          <div class="teaching-copy">
+            <p class="section-tag">03 / Teaching</p>
+            <h2>Helping people learn by doing.</h2>
+            <p>
+              I support peers and learners by making technical concepts simpler, more relatable, and easier to apply.
+              My teaching style focuses on clarity, practice, and real-world relevance rather than memorization.
+            </p>
+            <p>
+              I believe the best learning happens when a concept is explained clearly, demonstrated simply, and then
+              practiced hands-on. That approach builds both confidence and understanding.
+            </p>
+            <p class="note">I am especially interested in the future role of AI, automation, and practical digital literacy in education.</p>
+          </div>
+
+          <div class="lesson-panel">
+            <span class="panel-label">Sample lesson / Python</span>
+            <h3>Variables & Input</h3>
+            <p><strong>Objective:</strong> Write a short program that prompts the user for a name and prints a greeting.</p>
+            <pre><code>name = input("Your name: ")
+print("Hello, " + name)</code></pre>
+            <p><strong>Practice:</strong> Add a favourite subject and include it in the message.</p>
+            <small>Illustrative teaching example for beginner learning.</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-section">
+        <div class="wrap">
+          <p class="section-tag">04 / Capabilities</p>
+          <h2>Tools, systems, and problem-solving strengths.</h2>
+
+          <div class="skills-grid">
+            <div class="skill-box">
+              <h3>Development</h3>
+              <p>Python · Flask · PHP · HTML · CSS · JavaScript · REST APIs</p>
+            </div>
+            <div class="skill-box">
+              <h3>Databases & Tools</h3>
+              <p>MySQL · SQL · Git · GitHub · Debugging · Testing</p>
+            </div>
+            <div class="skill-box">
+              <h3>Security & Networking</h3>
+              <p>Wireshark · Nmap · Kali Linux · OpenSSL · TCP/IP</p>
+            </div>
+            <div class="skill-box">
+              <h3>Certifications</h3>
+              <p>Cisco Introduction to Cybersecurity (2025) · Advanced Cyber Security & Ethical Hacking (2025)</p>
+            </div>
+          </div>
+          <div id="saved-skills" class="skills-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="recognition" class="section">
+        <div class="wrap">
+          <p class="section-tag">05 / Achievements</p>
+          <h2>Recognition and certifications.</h2>
+          <div class="recognition-grid">
+            <div>
+              <h3 class="subsection-title">Awards & achievements</h3>
+              <div id="saved-achievements" class="entry-list" aria-live="polite"></div>
+            </div>
+            <div>
+              <h3 class="subsection-title">Certificates</h3>
+              <div id="saved-certificates" class="entry-list" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="manage" class="section alt-section" hidden>
+        <div class="wrap">
+          <p class="section-tag">06 / Portfolio Manager</p>
+          <h2>Manage your portfolio.</h2>
+          <div class="manager-notice">
+            <strong>Public projects and local profile details.</strong>
+            <span>Skills, awards, and certificates stay in this browser. Projects added below are stored on Netlify and shown to all visitors after this site is deployed and configured.</span>
+          </div>
+          <p id="manager-status" class="manager-status" role="status" aria-live="polite"></p>
+
+          <div class="manager-grid">
+            <form class="manager-form" id="admin-access-form">
+              <h3>Netlify upload access</h3>
+              <label>Upload access key<input id="portfolio-admin-token" type="password" autocomplete="current-password" /></label>
+              <p class="form-hint">Enter the value of PORTFOLIO_ADMIN_TOKEN from Netlify site environment variables. It stays in this browser tab.</p>
+              <button class="btn btn-secondary" type="button" data-action="save-token">Use this key</button>
+            </form>
+
+            <form class="manager-form" data-entry-form="projects">
+              <h3>Add a project</h3>
+              <label>Project name<input name="title" type="text" maxlength="100" required /></label>
+              <label>Description<textarea name="description" rows="3" maxlength="700" required></textarea></label>
+              <label>Technologies, separated by commas<input name="technologies" type="text" maxlength="200" placeholder="Python, Flask, MySQL" /></label>
+              <label class="project-screenshots-picker">
+                Project screenshots (up to five)
+                <input name="screenshots" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple aria-describedby="project-screenshots-note" />
+              </label>
+              <p id="project-screenshots-note" class="form-hint" aria-live="polite">Choose up to five screenshots to publish with this project.</p>
+              <button class="btn btn-primary" type="submit">Add project</button>
+            </form>
+
+            <form class="manager-form" data-entry-form="skills">
+              <h3>Add a skill</h3>
+              <label>Skill name<input name="title" type="text" maxlength="80" required /></label>
+              <label>Category<input name="category" type="text" maxlength="60" placeholder="Development, design, communication..." /></label>
+              <button class="btn btn-primary" type="submit">Add skill</button>
+            </form>
+
+            <form class="manager-form" data-entry-form="achievements">
+              <h3>Add an achievement or award</h3>
+              <label>Title<input name="title" type="text" maxlength="100" required /></label>
+              <label>Organization or awarding body<input name="issuer" type="text" maxlength="100" /></label>
+              <label>Year<input name="year" type="text" inputmode="numeric" maxlength="20" placeholder="2026" /></label>
+              <label>Details<textarea name="description" rows="2" maxlength="400"></textarea></label>
+              <button class="btn btn-primary" type="submit">Add achievement</button>
+            </form>
+
+            <form class="manager-form" data-entry-form="certificates">
+              <h3>Add a certificate</h3>
+              <label>Certificate name<input name="title" type="text" maxlength="100" required /></label>
+              <label>Issuing organization<input name="issuer" type="text" maxlength="100" /></label>
+              <label>Year<input name="year" type="text" inputmode="numeric" maxlength="20" placeholder="2026" /></label>
+              <button class="btn btn-primary" type="submit">Add certificate</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="wrap contact-wrap">
+          <p class="section-tag">07 / Contact</p>
+          <h2>Let’s build something meaningful together.</h2>
+          <p>
+            I am open to opportunities involving web development, software projects, and technology education.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:ayomideakinsanya56@gmail.com?subject=Technology%20Opportunity">Email me</a>
+            <a
+              class="btn btn-secondary"
+              href="https://www.linkedin.com/in/ayomide-akinsanya-399739389"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© <span id="year"></span> Ayomide Akinsanya</p>
+        <p>Built to reflect technical capability and teaching potential.</p>
+      </div>
+    </footer>
+
+    <dialog id="modal" aria-labelledby="modal-title">
+      <button id="close" class="close-button" aria-label="Close project details">×</button>
+      <div id="modalBody"></div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
