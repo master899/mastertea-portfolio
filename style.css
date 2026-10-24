@@ -617,6 +617,15 @@ body.manager-mode .featured-gallery-upload {
   color: var(--accent);
 }
 
+.project-links .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
 .lesson-panel {
   padding: 26px 24px;
 }
